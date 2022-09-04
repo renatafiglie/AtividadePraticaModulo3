@@ -5,4 +5,4 @@
 
 
 <p>Esse é o meu segundo projeto realizado após concluir o terceiro módulo da Recode Pro 2022</p>
-<p> Nele pude desenvolver habilidades tais como: CRUD EM JAVA, HTML e CSS (melhorias no site)</p>
+<p> Nele pude desenvolver habilidades tais como: CRUD EM JAVA, HTML e CSS</p>

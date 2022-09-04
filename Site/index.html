@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Agência Intergaláctica</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- ICON SITE REMIXICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container" id="topo">
+
+        <nav>
+            <!-- Inicio Navbar -->
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+
+                            <!-- Inicio logo -->
+                            <nav class="navbar">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="logo.png" alt="" width="45" height="43">
+                                </a>
+                            </nav>
+                            <!-- Fim logo -->
+
+                            <a class="navbar-brand" href="index.html"
+                                style="color:rgb(126, 53, 194); font-size: 25px; font-family: fantasy;">INTERGALÁCTICA</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="paginaInicial.html">Página Inicial</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="nossaHistoria.html">Nossa História</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pacotesDisponiveis.html">Pacotes Disponíveis</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            E ai, vai como?
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="foguetes.html">Foguetes</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="submarinos.html">Submarinos</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- Inicio Botoes Login/Cadastro -->
+                                    <div class="d-grid d-md-block ms-5">
+                                        <a href="paginaCadastro.html" class="btn btn-primary" tabindex="-1"
+                                            role="button" aria-disabled="true">Cadastre-se</a>
+                                        <a href="paginaLogin.html" class="btn btn-primary" tabindex="-1" role="button"
+                                            aria-disabled="true">Login</a>
+                                    </div>
+                                    <!-- Fim Botoes Login/Cadastro -->
+                                </ul>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="O que procura?"
+                                        aria-label="Search">
+                                    <button class="btn btn-primary" type="submit">Ir</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Fim Navbar -->
+        </nav>
+
+        <header>
+            <!-- Inicio Jumbotrom -->
+            <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white mt-3"
+                style="background-image: url(sistemasolar3.png);">
+                <h1 class="mb-3 h2"
+                    style="font-family: fantasy; font-size: 40px; color:rgb(126, 53, 194); margin-top: 15px;">AGÊNCIA DE
+                    TURISMO AEROESPACIAL E MARITIMO</h1>
+
+                <p
+                    style="font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif; color: black; font-size: 30px ;">
+                    Tenha experiências únicas e indescritíveis!
+                </p>
+            </div>
+            <!-- Fim Jumbotrom -->
+
+
+            <!-- Inicio Seleção-->
+            <div class="row justify-content-center mt-2 ms-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-1" style="width: 240px ;">
+                    <div class="mb-3">
+                        <input type="date" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                        <small id="helpId" class="form-text text-muted" style="margin-left: 60px;">Data da
+                            Viagem</small>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-1" style="width: 240px;">
+                    <input class="form-control" list="datalistOptions" id="exampleDataList"
+                        placeholder="Destinos Disponíveis">
+                    <small id="helpId" class="form-text text-muted" style="margin-left: 80px;">Destino</small>
+                    <datalist id="datalistOptions">
+                        <option value="Marte">
+                        <option value="Jupter">
+                        <option value="Saturno">
+                        <option value="Lua">
+                        <option value="Vênus">
+                        <option value="Oceano Pacífico">
+                        <option value="Oceano Atlântico">
+                        <option value="Oceano Índico">
+                        <option value="Oceano Ártico">
+
+                    </datalist>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-1" style="width: 240px;">
+                    <!-- Inicio Botao Modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Buscar Pacotes
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Comprar Pacote</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Para acessar faça o Login
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim Botao Modal -->
+                </div>
+            </div>
+            <!-- Fim Seleção-->
+        </header>
+
+        <main>
+            <hr style="margin-bottom: 40px ;">
+
+            <!-- Inicio Promocao -->
+            <div class="p-2 mb-2 bg-warning text-dark">
+                <h1 style="font-family:fantasy ; font-style:oblique; text-align:center; color: rgba(255, 0, 0, 0.589)">
+                    PROMOÇÕES IMPERDÍVEIS</h1>
+            </div>
+            <!-- Fim Promocao -->
+
+
+            <!-- Inicio Cards -->
+            <div class="row mt-4">
+                <div class="col d-flex justify-content-center mt-4">
+                    <div class="card border-dark" style="width: 20rem; background-image: linear-gradient(to right, rgb(85, 81, 81), rgba(208, 140, 247, 0.76), rgba(85, 81, 81, 0.815));">
+                        <img class="card-img-top p-2" src="luaaa.PNG" alt="Foto1">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align: center">LUA</h4>
+                            <p class="card-text">- Viagem Espacial de Foguete</p>
+                            <p class="card-text">- Acomodação Especial</p>
+                            <p class="card-text">- Vista Aérea do Planeta</p>
+                            <p class="card-text">- Alimentação Inclusa</p>
+                            <!-- Inicio Botao Modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Comprar
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Comprar Pacote</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Para Acessar Seu Carrinho de Compras Faça o Login
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fim Botao Modal -->
+                            <p style="margin-top: 10px; color: red; font-size: 20px"><del>R$ 500.000,00</del></p>
+                            <p style="font-size: 30px;"> <strong>R$ 300.000,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mt-4">
+                    <div class="card border-dark" style="width: 20rem; background-image: linear-gradient(to right, rgb(85, 81, 81), rgba(208, 140, 247, 0.76), rgba(85, 81, 81, 0.815));">
+                        <img class="card-img-top p-2" src="marte-17.jpg" alt="Foto2">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align: center">MARTE</h4>
+                            <p class="card-text">- Viagem Espacial de Foguete</p>
+                            <p class="card-text">- Acomodação Especial</p>
+                            <p class="card-text">- Vista Aérea do Planeta</p>
+                            <p class="card-text">- Alimentação Inclusa</p>
+                            <!-- Inicio Botao Modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Comprar
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Comprar Pacote</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Para Acessar Seu Carrinho de Compras Faça o Login
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fim Botao Modal -->
+                            <p style="margin-top: 10px; color: red; font-size: 20px"><del>R$ 500.000,00</del></p>
+                            <p style="font-size: 30px;"> <strong>R$ 300.000,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mt-4">
+                    <div class="card border-dark" style="width: 20rem; background-image: linear-gradient(to right, rgb(85, 81, 81), rgba(208, 140, 247, 0.76), rgba(85, 81, 81, 0.815));">
+                        <img class="card-img-top p-2" src="oceanoatlantico.PNG" alt="Foto3">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align: center">OCEANO ATLÂNTICO</h4>
+                            <p class="card-text">- Viagem de Submarino</p>
+                            <p class="card-text">- Acomodação Especial</p>
+                            <p class="card-text">- Vista Submersa do Oceano</p>
+                            <p class="card-text">- Alimentação Inclusa</p>
+                            <!-- Inicio Botao Modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Comprar
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Comprar Pacote</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Para Acessar Seu Carrinho de Compras Faça o Login
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fim Botao Modal -->
+                            <p style="margin-top: 10px; color: red; font-size: 20px"><del>R$ 300.000,00</del></p>
+                            <p style="font-size: 30px;"> <strong>R$ 150.000,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim Card -->
+
+            <hr style="margin-top: 50px;">
+        </main>
+
+        <!-- Inicio Footer -->
+        <footer>
+
+            <!-- Inicio Links -->
+            <div class="row p-4" style="text-align: center">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+
+                    <ul class="nav flex-column text">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="duvidas.html"
+                                style="color: rgb(126, 53, 194)">Dúvidas
+                                Frequentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="localizacao.html" style="color: rgb(126, 53, 194)">Localização</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contato.html"
+                                style="color: rgb(126, 53, 194)">Contato</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="trabalheConosco.html"
+                                style="color: rgb(126, 53, 194)"><strong></strong>Trabalhe Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="informacoesImportantes.html"
+                                style="color: rgb(126, 53, 194)">Informações
+                                Importantes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="politicaPrivacidade.html"
+                                style="color: rgb(126, 53, 194)">Politica de Privacidade</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <!-- Fim Links -->
+
+
+            <!-- Inicio Imagem Rodape -->
+            <img src="Sem título.png" class="img-fluid" alt="...">
+            <!-- Fim Imagem Rodape -->
+
+                <!-- Inicio Icones -->
+                <div class="row">
+                    <div class="col-12 text-center mt-4">
+                        <div style="font-size: 28px;" class="icones">
+                            <i class="ri-linkedin-box-fill ri-1x" id="linkedin"></i>
+                            <i class="ri-instagram-fill ri-1x" id="instagram"></i>
+                            <i class="ri-facebook-box-fill ri-1x" id="facebook"></i>
+                            <i class="ri-twitter-fill ri-1x" id="twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Icones -->
+
+                <!-- Inicio Imagem Rodape -->
+                <div class="row">
+                    <div class="col-12">
+                        <p style="text-align: center; font-family: monospace; margin-top: 20px; color: darkgrey;">
+                            &copy Desenvolvido por
+                            Maria Renata Figlié - Recode Pro 2022</p>
+                    </div>
+                </div>
+                <!-- Fim Imagem Rodape -->
+
+                <!-- Botão topo -->
+                <a href="#topo"> <i class="ri-arrow-up-s-line" id="icon-top"></i> </a>
+
+            </footer>
+            <!-- Fim Footer -->
+
+
+    </div>
+    <!-- Fim divContainer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
